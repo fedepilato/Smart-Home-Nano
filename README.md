@@ -18,14 +18,14 @@ Il progetto è diviso in due macro-componenti:
    - Permette di iscriversi ai topic per monitorare in tempo reale i sensori.
    - Invia comandi di attuazione per accendere/spegnere i LED, regolare la velocità della ventola o stampare messaggi sul display LCD.
 
-## 🛠️ Requisiti Hardware
+## Requisiti Hardware
 * Scheda compatibile con `WiFiNINA` e microfono integrato (es. Arduino Nano RP2040 Connect).
 * Sensore di temperatura (analogico).
 * Sensore di presenza PIR.
 * Ventola (guidata tramite PWM) e LED.
 * Display LCD con modulo I2C (PCF8574).
 
-## 💻 Installazione e Configurazione
+## Installazione e Configurazione
 
 ### Configurazione Arduino
 1. Apri lo sketch `.ino` con l'IDE di Arduino.
